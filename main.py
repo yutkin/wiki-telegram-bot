@@ -23,7 +23,7 @@ HISTORY_HAS_BEEN_CLEANED_MSG = 'История запросов очищена.'
 HISTORY_IS_EMPTY_MSG = 'История запросов чиста.'
 HISTORY_LIST_MSG = 'История запросов:'
 
-TOKEN = '494665754:AAGgx5IGizH9ArIy4yq_Vo4xdOkPY74wBF8'
+TOKEN = ''
 HISTORY_MAX_LEN = 10
 DB_NAME = 'history.db'
 
