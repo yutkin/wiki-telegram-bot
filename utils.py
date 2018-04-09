@@ -36,7 +36,9 @@ def get_wiki_article_summary(pageid):
     if 'pageprops' in page:
         return None
 
-    html = response['query']['pages'][pageid]['extract']
+    html = response['query']['pages'][pageid].get('extract')
+    if not html:
+        return None
 
     first_p = None
     for p in BeautifulSoup(html, 'lxml').find_all('p'):
